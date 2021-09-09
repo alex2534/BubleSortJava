@@ -1,7 +1,8 @@
 //ALGORITIMO DE ORDENAÇÃO E BUSCA
 //ORDENAR DO MENOR PARA O MAIOR COM O BUBLE_SORT
 //IMPORTA TODA A LIVRARIA DO JAVA UTIL USANDO O SINAL (*)
-import java.util*;														//Pacote class bubble_sort 																		
+
+import java.util*; 																		
 public static void main(String[] args){
 
 	int x[] = new int[5];
@@ -25,7 +26,7 @@ public static void main(String[] args){
 	   x[i] = x[i+1];
 //E o x[i] recebe o valor de x[i+1]
 	   x[i+1] = aux;
-//E no fim x[i+1] recebe o valor de aux fazendo assim a troca de posição de o menor vai para a esqurda e o maior para a direita 
+//E no fim x[i+1] recebe o valor de aux fazendo assim a troca de posição de o menor vai para a esqurda e o maior para a direita se assim necessario for
 	}
     }
 
@@ -62,7 +63,7 @@ public class buble_sort_melhorado1
 	     x[i] = x[i-1];
 //O x[i] vai receber o valor do x[i+1] 
 	     x[i-1] = aux;
-//O x[i-1] vai receber o valor de aux e assim x[-1] vai fazer a troca de possição passando o menor valor para a esquerda e o maior valor para a direita 
+//O x[i-1] vai receber o valor de aux e assim x[-1] vai fazer a troca de possição passando o menor valor para a esquerda e o maior valor para a direita se assim necessario for
 //fazendo assim a ordem crescente dos valores
 	  }
 	{
