@@ -1,0 +1,38 @@
+//ALGORITIMO DE ORDENAÇÃO E BUSCA
+//ORDENAR DO MENOR PARA O MAIOR COM O BUBLE_SORT
+//IMPORTA TODA A LIVRARIA DO JAVA UTIL USANDO O SINAL (*)
+import java.util*;														//Pacote class bubble_sort 																		
+public static void main(String[] args){
+
+	int x[] = new int[5];
+	int n, i, aux;
+//Carregar números no vetor
+	Scanner entrada = new Scanner(System.in);
+	
+	for(i = 0; i <= 4; i++){
+	System.out.println("Digite o "+(i+1) + "° número: ");
+	x[i] = entrada.nextInt();
+  }
+//Ordenar de forma crescente laço com a quantidade de alementos do vetor
+	for(n=1; n<=5; n++){
+//laço que percorre da primeira á posição do vetor
+	for(i =o; i<=3; i++){
+//checa se x[i] e maior que x[i+1];
+	if(x[i] > x[i+1])
+	{
+//Se x[i] for maior que x[i+1] aux recebe o valor de x[i];
+	   aux = x[i];
+//O x[i] recebe o valor de x[i+1];
+	   x[i] = x[i+1];
+//E x[i+1] recebe o valor de aux;
+	   x[i+1] = aux;
+	}
+    }
+
+ }
+//Mostrando o vetor ordenado
+	for(i = 0; i < = 4; i++){
+	System.out.println((i+1) + "° número: " + x[i]);
+   }
+
+}
