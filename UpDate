@@ -20,12 +20,12 @@ public static void main(String[] args){
 //checa se x[i] e maior que x[i+1];
 	if(x[i] > x[i+1])
 	{
-//Se x[i] for maior que x[i+1] aux recebe o valor de x[i];
 	   aux = x[i];
-//O x[i] recebe o valor de x[i+1];
+//Se x[i] for maior que x[i+1] aux recebe o valor de x[i];
 	   x[i] = x[i+1];
-//E x[i+1] recebe o valor de aux;
+//E o x[i] recebe o valor de x[i+1]
 	   x[i+1] = aux;
+//E no fim x[i+1] recebe o valor de aux fazendo assim a troca de posição de o menor vai para a esqurda e o maior para a direita 
 	}
     }
 
@@ -60,8 +60,10 @@ public class buble_sort_melhorado1
 // Se o x[i] for menor que x[i+1] o aux recebe o valor de x[i]
 	     aux = x[i];
 	     x[i] = x[i-1];
-//Se o x[i] for igual ao x[i + 1] o x[i-1] recebe o valor de aux
+//O x[i] vai receber o valor do x[i+1] 
 	     x[i-1] = aux;
+//O x[i-1] vai receber o valor de aux e assim x[-1] vai fazer a troca de possição passando o menor valor para a esquerda e o maior valor para a direita 
+//fazendo assim a ordem crescente dos valores
 	  }
 	{
    }
