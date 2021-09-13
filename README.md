@@ -12,6 +12,14 @@ Neste algoritmo de ordenação cada número do vetor, a partir do primeiro, ser�
 
 
 # Array_Merge_sort
+
+  Neste algoritimo de ordenação, o vetor é dividido em vetores com a metade do tamanho do original por meio de um procedimento recursivo. Essa divisão ocorre até que o vetor fique com apenas um elemento e estes sejam orenados e intercalados. 
+   Neste algoritmo, será aplicada a técnica da divisão e conquista, uma técnica recursiva que envolve três passos em cada nível da recursão:
+      °Dividir o problema em um certo número de subproblemas.
+      °Conquistar 
+
+
+
 # Quick Sort
 Ordenação em ordem crescente com buble sort
 Estudando sobre ordenação de array em java
