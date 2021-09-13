@@ -27,13 +27,13 @@ public class Array {
 			for(i = 0; i <= 3; i++) {
 				
 				if(x[i] < x[i + 1]) {
-//SE X[I] FOR MENOR QUE X[I + 1] TROCA RECEBE 1
+//SE O ARRAY X[I] FOR MENOR QUE X[I + 1] TROCA RECEBE 1
 					troca = 1;
-//SE X[I] FOR MENOR QUE X[I + 1] AUX RECEBE 1
+			//A VARIÁVEL AUX RECEBE O ARRAY X[I]
 					aux = x[i];
-//SE X[I] FOR MENOR QUE X[I + 1] ENTÃO X[I] RECEBE X[I + 1]
+			//O ARRAY X[I] RECEBE O ARRAY X[I + 1]
 					x[i] = x[i + 1];
-//SE X[I] FOR MENOR QUE X[I + 1] ENTÃO O X[I + 1] RECEBE AUX
+			//O ARRAY X[I + 1] RECEBE A VARIÁVEL AUX
 					x[i + 1] = aux;
 				}
 			}
