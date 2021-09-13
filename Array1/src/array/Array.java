@@ -22,9 +22,13 @@ public class Array {
 			
 //ESSLE LAÇO QUE PERCORRE DA ÚLTIMA POSIÇÃO Á POSIÇÃO J DO VETOR
 		for(i = 4; i >= j; i --) {
+//SE O ( X ARRAY NO INDEX) FOR MAIOR QUE O (ARRAY X NO INDEX - 1)
 			if(x[i] < x[i - 1]) {
+//A VARIÁVEL AUX RECEBE O VALOR DO ARRAY X[I]
 				aux = x[i];
+//O ARRAY X[I] RECEBE O VALOR DO ARRAY X [I - 1]
 				x[i] = x[i - 1];
+//E O ARRAY X[I - 1] RECEBE O VALOR DA VARIAVEL AUX
 				x[i - 1] = aux;
 			}
 		}
