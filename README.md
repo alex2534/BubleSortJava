@@ -16,7 +16,12 @@ Neste algoritmo de ordenação cada número do vetor, a partir do primeiro, ser�
   Neste algoritimo de ordenação, o vetor é dividido em vetores com a metade do tamanho do original por meio de um procedimento recursivo. Essa divisão ocorre até que o vetor fique com apenas um elemento e estes sejam orenados e intercalados. 
    Neste algoritmo, será aplicada a técnica da divisão e conquista, uma técnica recursiva que envolve três passos em cada nível da recursão:
       °Dividir o problema em um certo número de subproblemas.
-      °Conquistar 
+      °Conquistar os subproblemas solucionando-os recursivamente. Se os tamanhos dos subproblemas são suficientemente pequenos, então, solucionar os subproblemas de forma simples.
+      Combinar as soluções dos subproblemas na solução de problema original.
+          Assim, no algoritimo de ordenação por intercalação. MERGER SORT, tem-se a técnica da divisão e conquista da seguinte forma:
+      Dividir: dividir a sequência de n elementos a serem ordenados em duas subsequências de n/2 elementos cada.
+      Conquistar: Intercalar as duas subsequências recursivamente utilizando a ordenação por intercalação.
+      Combinar: intercalar as duas subsequências ordenadas para produzir a solução.
 
 
 
