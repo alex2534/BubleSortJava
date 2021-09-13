@@ -26,5 +26,12 @@ Neste algoritmo de ordenação cada número do vetor, a partir do primeiro, ser�
 
 
 # Quick Sort
-Ordenação em ordem crescente com buble sort
-Estudando sobre ordenação de array em java
+  Neste algoritimo de ordenação o vetor ẽ particionado em dois por meio de um procedimento recursivo. Essa divisão ocorre até que o vetor fique com apenas um elemento, enquanto os demais ficam oredenados à medida que ococrre o particionamento.
+  Esse algoritimo também é baseado na técnica da divisão e conquista mencionada na seção do algoritmo MERGE SORT.
+  Assim, no algoritmo de ordenação rápida, QUICK SORT, tem-se a técnica da divisão e conquista da seguinte forma:
+  
+  Dividir: o vetor(ESSE E O VETOR COMPLETO x[p...r]) é particionado (rearranjando) em dois subvetores não vazios(ESSE E O VETOR QUE TEM A PRIMEIRA METADE DO VETOR COMPLETO x[inicio ... meio]) e (ESSE E A SEGUNDA METADE DO VETOR COMPLETO ([meio + 1 ... fim]). O índice meio é calculado como parte do processo de particionamento. Para determinar o índece meio, escolhe-se o elemento que se encontra na metade do vetor original, chamado de pivô, e rearranjam-se os elementos do vetor de forma que os que ficaram á direita de meio são maiores (ou iguauis) ao pivô.
+  
+  Conquistar: Os dois subvetores são ordenados (ESSA E A PRIMERIA METADE DO VETOR x[incio...meio] e  ESSA E A SEGUNDA METADE DO VETOR x[inicio+1...fim] por chamadas recursivas ao QUICK SORT.
+  Combinar: durante o processo recursivo, os elementos vão sendo ordenados no próprio vetor, não exigindo nenhum processamento nesta etapa.
+  
