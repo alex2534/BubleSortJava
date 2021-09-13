@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Array {
 	
 	public static void main(String[] args) {
-//INSTANCIANDO UM ARRAY E ESTABELECENDO O TMANHO DELE		
+//DECALRANDO UM ARRAY E ESTABELECENDO O TMANHO DELE		
 		int x[] = new int[5];
 //DECLARANDO VARIAVEIS		
 		int n, i, aux;
@@ -16,7 +16,7 @@ public class Array {
 			System.out.print("Digite o " +(i + 1)+ " número: ");
 			x[i] = entrada.nextInt();
 		}
-//ORDENANDO DE FORMA CRESCENTE LAÇCO COM A QUANTIDADE DE ELEMENTOS DO VETOR
+//ORDENANDO DE FORMA CRESCENTE LAÇO COM A QUANTIDADE DE ELEMENTOS DO VETOR
 		for(n = 1; n <= 5; n++) {			
 //LAÇO QUE PERCORRE DA PRIMEIRA Á PENÚLTIMA POSIÇÃO DO VETOR
 			for(i = 0; i <=3; i++) {
